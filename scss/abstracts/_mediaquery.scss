@@ -1,0 +1,39 @@
+@media (min-width: 992px) {
+  .mt-11 {
+    margin-top: 11.5rem !important;
+  }
+
+  .fixed-top-lg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+  }
+
+  .fixed-bottom-lg {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .m-xs-auto {
+    margin: auto !important;
+  }
+
+  .ml-xs-auto {
+    margin-left: auto !important;
+  }
+
+  .order-xs-1 {
+    order: 1;
+  }
+
+  .order-xs-2 {
+    order: 2;
+  }
+}

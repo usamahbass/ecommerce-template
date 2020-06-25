@@ -1,0 +1,16 @@
+{
+  "name": "ecommerce_template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass scss/custom.scss css/style.css -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "node-sass": "^4.13.1"
+  }
+}

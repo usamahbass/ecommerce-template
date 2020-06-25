@@ -1,0 +1,15 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+@import "./abstracts/variables";
+@import "./abstracts/mediaquery";
+
+@import "./component/button";
+@import "./component/card";
+@import "./component//list";
+@import "./component/input";
+@import "./component/spinnergrow";
+
+@import "./base/base";
+@import "./base/color";
+@import "./base/typhography";
+@import "./base/utillities";

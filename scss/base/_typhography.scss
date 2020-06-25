@@ -1,0 +1,27 @@
+.cart-font {
+  font-size: $cart-font;
+}
+
+.footer-font {
+  font-size: $footer-font;
+
+  &:hover {
+    color: $gold;
+  }
+}
+
+.medium-font {
+  font-size: $medium-font;
+}
+
+.normal-font {
+  font-size: $normal-font;
+}
+
+.nav-font {
+  font-size: $nav-font;
+}
+
+.small-font {
+  font-size: $small-font;
+}

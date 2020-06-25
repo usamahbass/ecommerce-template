@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!-- Primary Meta -->
+    <meta name="title" content="e-commerce"/>
+    <meta name="description" content="simple e-commerce with bootstrap" />
+
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- FontAwesome -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+
+    <!-- Roboto Font -->
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>e-commerce template</title>
+  </head>
+  <body>
+    <header class="bg-white text-gold">
+      <div class="fixed-top-lg bg-white nav-shadow">
+        <nav class="container navbar navbar-expand-lg text-gold ">
+          <a class="navbar-brand text-dark" href="#">Logo</a>
+          <button
+            class="navbar-toggler btn-navbar text-white"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="fas fa-bars text-dark"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0 mx-auto">
+              <li class="nav-item">
+                <a class="nav-link text-dark mr-3 nav-font" href="#">Mens </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark mr-3 nav-font" href="#">Women</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark mr-3 nav-font" href="#">Beauty</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark mr-3 nav-font" href="#">Sport</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark mr-3 nav-font" href="#">Child</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark mr-3 nav-font" href="#">Special</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark mr-3 nav-font" href="#">Brands</a>
+              </li>
+            </ul>
+            <h5 class="my-2 my-lg-0">
+              <a class="text-dark text-decoration-none" href="cart.html">
+                <i class="fas fa-shopping-cart"></i>
+              </a>
+            </h5>
+          </div>
+        </nav>
+      </div>
+
+      <div class="container py-lg-5 mb-5">
+        <div class="row mt-5">
+          <div class="col-lg order-lg-1 order-sm-2 order-xs-2">
+            <div>
+              <h1 class="font-weight-bold mb-5 text-dark">
+                Buy Best Products From All Of The World
+              </h1>
+              <p class="lead mb-5 text-muted" style="font-size: 1rem;">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+                perferendis aspernatur incidunt vero similique provident
+                obcaecati suscipit? Ipsam accusantium ipsa fuga officiis
+                nesciunt perspiciatis, illum vero, alias deleniti, pariatur ex?
+              </p>
+
+              <div class="d-flex justify-content-around mb-5">
+                <a href="#product" class="btn-custom-left text-decoration-none">
+                  <span>Product</span>
+                </a>
+                <button class="btn-custom-right ">
+                  <span>Sign Up</span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg order-lg-2 order-sm-1 order-xs-1">
+            <figure class="figure">
+              <img
+                src="./assets/shopping.svg"
+                alt=""
+                class="figure-img img-fluid rounded"
+              />
+            </figure>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="container mt-5" id="product">
+      <div class="d-flex justify-content-between">
+        <div class="mb-3">
+          <h5 class="font-weight-medium">Newest Products</h5>
+        </div>
+        <div class="float-right">
+          <div class="d-flex justify-content-lg-end">
+            <h6 class="mr-3">All</h6>
+            <h6 class="mr-3">|</h6>
+            <i class="fas fa-arrow-left text-muted mr-3"></i>
+            <i class="fas fa-arrow-right"></i>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product -->
+
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-header bg-white">
+                <div class="d-flex justify-content-between text-danger">
+                  <i class="fas fa-heart text-gray"></i>
+                  <i class="fas fa-shopping-cart text-gray"></i>
+                </div>
+              </div>
+              <div class="card-body">
+                <div class="img-container">
+                  <img
+                    class="card-img-top mb-3"
+                    src="./assets/product-2.jpg"
+                    alt="shopping"
+                  />
+                </div>
+                <div class="text-center">
+                  <h3 class="mb-3" style="font-size: 1.2rem;">
+                    Product
+                  </h3>
+                  <h3 class="text-primary" style="font-size: 1rem;">
+                    999.66 $
+                  </h3>
+                </div>
+              </div>
+              <div class="overlay"></div>
+              <div class="card-footer bg-white">
+                <a href="product.html" class="btn-custom btn-gold text-white m-0">
+                  Show
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-header bg-white">
+                <div class="d-flex justify-content-between text-danger">
+                  <i class="fas fa-heart text-gray"></i>
+                  <i class="fas fa-shopping-cart text-gray"></i>
+                </div>
+              </div>
+              <div class="card-body">
+                <div class="img-container">
+                  <img
+                    class="card-img-top mb-3"
+                    src="./assets/product-2.jpg"
+                    alt="shopping"
+                  />
+                </div>
+                <div class="text-center">
+                  <h3 class="mb-3" style="font-size: 1.2rem;">
+                    Product
+                  </h3>
+                  <h3 class="text-primary" style="font-size: 1rem;">
+                    999.66 $
+                  </h3>
+                </div>
+              </div>
+              <div class="overlay"></div>
+
+              <div class="card-footer bg-white">
+                <a href="product.html" class="btn-custom btn-gold text-white">
+                  Show
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-header bg-white">
+                <div class="d-flex justify-content-between text-danger">
+                  <i class="fas fa-heart text-gray"></i>
+                  <i class="fas fa-shopping-cart text-gray"></i>
+                </div>
+              </div>
+              <div class="card-body">
+                <div class="img-container">
+                  <img
+                    class="card-img-top mb-3"
+                    src="./assets/product-2.jpg"
+                    alt="shopping"
+                  />
+                </div>
+                <div class="text-center">
+                  <h3 class="mb-3" style="font-size: 1.2rem;">
+                    Product
+                  </h3>
+                  <h3 class="text-primary" style="font-size: 1rem;">
+                    999.66 $
+                  </h3>
+                </div>
+              </div>
+              <div class="overlay"></div>
+
+              <div class="card-footer bg-white">
+                <a href="product.html" class="btn-custom btn-gold text-white">
+                  Show
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mb-5">
+          <h5 class="mb-5 font-weight-medium">Special Products</h5>
+          <div class="d-lg-flex flex-row justify-content-around">
+            <div class="card">
+              <div class="card-header bg-white">
+                <div class="d-flex justify-content-between text-danger">
+                  <i class="fas fa-heart text-gray"></i>
+                  <i class="fas fa-shopping-cart text-gray"></i>
+                </div>
+              </div>
+              <div class="card-body">
+                <div class="img-container">
+                  <img
+                    class="card-img-top mb-3"
+                    src="./assets/product-4.jpg"
+                    alt="shopping"
+                  />
+                </div>
+                <div class="text-center">
+                  <h3 class="mb-3" style="font-size: 1.2rem;">
+                    Product
+                  </h3>
+                  <h3 class="text-primary" style="font-size: 1rem;">
+                    999.66 $
+                  </h3>
+                </div>
+              </div>
+              <div class="overlay"></div>
+
+              <div class="card-footer bg-white">
+                
+                <a href="product.html" class="btn-custom btn-gold text-white">
+                  Show
+                </a>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header bg-white">
+                <div class="d-flex justify-content-between text-danger">
+                  <i class="fas fa-heart text-gray"></i>
+                  <i class="fas fa-shopping-cart text-gray"></i>
+                </div>
+              </div>
+              <div class="card-body">
+                <div class="img-container">
+                  <img
+                    class="card-img-top mb-3"
+                    src="./assets/product-4.jpg"
+                    alt="shopping"
+                  />
+                </div>
+                <div class="text-center">
+                  <h3 class="mb-3" style="font-size: 1.2rem;">
+                    Product
+                  </h3>
+                  <h3 class="text-primary" style="font-size: 1rem;">
+                    999.66 $
+                  </h3>
+                </div>
+              </div>
+              <div class="overlay"></div>
+
+              <div class="card-footer bg-white">
+                <a href="product.html" class="btn-custom btn-gold text-white">
+                  Show
+                </a>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header bg-white">
+                <div class="d-flex justify-content-between text-danger">
+                  <i class="fas fa-heart text-gray"></i>
+                  <i class="fas fa-shopping-cart text-gray"></i>
+                </div>
+              </div>
+              <div class="card-body">
+                <div class="img-container">
+                  <img
+                    class="card-img-top mb-3"
+                    src="./assets/product-3.jpg"
+                    alt="shopping"
+                  />
+                </div>
+                <div class="text-center">
+                  <h3 class="mb-3" style="font-size: 1.2rem;">
+                    Product
+                  </h3>
+                  <h3 class="text-primary" style="font-size: 1rem;">
+                    999.66 $
+                  </h3>
+                </div>
+              </div>
+              <div class="overlay"></div>
+
+              <div class="card-footer bg-white">
+                <a href="product.html" class="btn-custom btn-gold text-white">
+                  Show
+                </a>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header bg-white">
+                <div class="d-flex justify-content-between text-danger">
+                  <i class="fas fa-heart text-gray"></i>
+                  <i class="fas fa-shopping-cart text-gray"></i>
+                </div>
+              </div>
+              <div class="card-body">
+                <div class="img-container">
+                  <img
+                    class="card-img-top mb-3"
+                    src="./assets/product-3.jpg"
+                    alt="shopping"
+                  />
+                </div>
+                <div class="text-center">
+                  <h3 class="mb-3" style="font-size: 1.2rem;">
+                    Product
+                  </h3>
+                  <h3 class="text-primary" style="font-size: 1rem;">
+                    999.66 $
+                  </h3>
+                </div>
+              </div>
+              <div class="overlay"></div>
+
+              <div class="card-footer bg-white">
+                <a href="product.html" class="btn-custom btn-gold text-white">
+                  Show
+                </a>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header bg-white">
+                <div class="d-flex justify-content-between text-danger">
+                  <i class="fas fa-heart text-gray"></i>
+                  <i class="fas fa-shopping-cart text-gray"></i>
+                </div>
+              </div>
+              <div class="card-body">
+                <div class="img-container">
+                  <img
+                    class="card-img-top mb-3"
+                    src="./assets/product-3.jpg"
+                    alt="shopping"
+                  />
+                </div>
+                <div class="text-center">
+                  <h3 class="mb-3" style="font-size: 1.2rem;">
+                    Product
+                  </h3>
+                  <h3 class="text-primary" style="font-size: 1rem;">
+                    999.66 $
+                  </h3>
+                </div>
+              </div>
+              <div class="overlay"></div>
+
+              <div class="card-footer bg-white">
+                <a href="product.html" class="btn-custom btn-gold text-white">
+                  Show
+                </a>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header bg-white">
+                <div class="d-flex justify-content-between text-danger">
+                  <i class="fas fa-heart text-gray"></i>
+                  <i class="fas fa-shopping-cart text-gray"></i>
+                </div>
+              </div>
+              <div class="card-body">
+                <div class="img-container">
+                  <img
+                    class="card-img-top mb-3"
+                    src="./assets/product-3.jpg"
+                    alt="shopping"
+                  />
+                </div>
+                <div class="text-center">
+                  <h3 class="mb-3" style="font-size: 1.2rem;">
+                    Product
+                  </h3>
+                  <h3 class="text-primary" style="font-size: 1rem;">
+                    999.66 $
+                  </h3>
+                </div>
+              </div>
+              <div class="overlay"></div>
+
+              <div class="card-footer bg-white">
+                <button class="btn-custom btn-gold text-white">
+                  Show
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+
+    <footer class="mt-auto py-3 text-dark bg-gray">
+      <div class="container">
+        <div class="row">
+          <div class="col mb-5">
+            <div class="d-flex justify-content-around">
+              <ul class="list-group">
+                <li class="list-group-item">
+                  <h6>Logo</h6>
+                  <a
+                    href="#"
+                    class="text-muted text-decoration-none footer-font"
+                    >Tentang Logo</a
+                  >
+                </li>
+                <li class="list-group-item">
+                  <a
+                    href="#"
+                    class="text-muted text-decoration-none footer-font"
+                    >Karir</a
+                  >
+                </li>
+                <li class="list-group-item">
+                  <a
+                    href="#"
+                    class="text-muted text-decoration-none footer-font"
+                    >Blog</a
+                  >
+                </li>
+                <li class="list-group-item">
+                  <a
+                    href="#"
+                    class="text-muted text-decoration-none footer-font"
+                    >Hotel</a
+                  >
+                </li>
+                <li class="list-group-item">
+                  <a
+                    href="#"
+                    class="text-muted text-decoration-none footer-font"
+                    >Bridestory</a
+                  >
+                </li>
+                <li class="list-group-item">
+                  <a
+                    href="#"
+                    class="text-muted text-decoration-none footer-font"
+                    >Parentstory</a
+                  >
+                </li>
+                <li class="list-group-item">
+                  <a
+                    href="#"
+                    class="text-muted text-decoration-none footer-font"
+                    >Official Store</a
+                  >
+                </li>
+                <li class="list-group-item">
+                  <a
+                    href="#"
+                    class="text-muted text-decoration-none footer-font"
+                    >Aplikasi Logo</a
+                  >
+                </li>
+              </ul>
+
+              <ul class="list-group">
+                <li class="list-group-item">
+                  <h6>Logo</h6>
+                  <a
+                    href="#"
+                    class="text-muted text-decoration-none footer-font"
+                    >Tentang Logo</a
+                  >
+                </li>
+                <li class="list-group-item">
+                  <a
+                    href="#"
+                    class="text-muted text-decoration-none footer-font"
+                    >Karir</a
+                  >
+                </li>
+                <li class="list-group-item">
+                  <a
+                    href="#"
+                    class="text-muted text-decoration-none footer-font"
+                    >Blog</a
+                  >
+                </li>
+                <li class="list-group-item">
+                  <a
+                    href="#"
+                    class="text-muted text-decoration-none footer-font"
+                    >Hotel</a
+                  >
+                </li>
+                <li class="list-group-item">
+                  <a
+                    href="#"
+                    class="text-muted text-decoration-none footer-font"
+                    >Bridestory</a
+                  >
+                </li>
+                <li class="list-group-item">
+                  <a
+                    href="#"
+                    class="text-muted text-decoration-none footer-font"
+                    >Parentstory</a
+                  >
+                </li>
+                <li class="list-group-item">
+                  <a
+                    href="#"
+                    class="text-muted text-decoration-none footer-font"
+                    >Official Store</a
+                  >
+                </li>
+                <li class="list-group-item">
+                  <a
+                    href="#"
+                    class="text-muted text-decoration-none footer-font"
+                    >Aplikasi Logo</a
+                  >
+                </li>
+              </ul>
+
+              <ul class="list-group">
+                <li class="list-group-item">
+                  <h6>Logo</h6>
+                  <a
+                    href="#"
+                    class="text-muted text-decoration-none footer-font"
+                    >Tentang Logo</a
+                  >
+                </li>
+                <li class="list-group-item">
+                  <a
+                    href="#"
+                    class="text-muted text-decoration-none footer-font"
+                    >Karir</a
+                  >
+                </li>
+                <li class="list-group-item">
+                  <a
+                    href="#"
+                    class="text-muted text-decoration-none footer-font"
+                    >Blog</a
+                  >
+                </li>
+                <li class="list-group-item">
+                  <a
+                    href="#"
+                    class="text-muted text-decoration-none footer-font"
+                    >Hotel</a
+                  >
+                </li>
+                <li class="list-group-item">
+                  <a
+                    href="#"
+                    class="text-muted text-decoration-none footer-font"
+                    >Bridestory</a
+                  >
+                </li>
+                <li class="list-group-item">
+                  <a
+                    href="#"
+                    class="text-muted text-decoration-none footer-font"
+                    >Parentstory</a
+                  >
+                </li>
+                <li class="list-group-item">
+                  <a
+                    href="#"
+                    class="text-muted text-decoration-none footer-font"
+                    >Official Store</a
+                  >
+                </li>
+                <li class="list-group-item">
+                  <a
+                    href="#"
+                    class="text-muted text-decoration-none footer-font"
+                    >Aplikasi Logo</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col">
+            <figure class="figure">
+              <img
+                src="./assets/shopping.svg"
+                alt="footer"
+                class="figure img img-fluid rounded"
+              />
+            </figure>
+
+            <p class="text-muted text-center footer-font">
+              &copy; 2020, Your Company
+            </p>
+
+            <div class="d-flex justify-content-center mb-3">
+              <button class="btn btn-gold text-white">Indonesia</button>
+              <button class="btn btn-light text-goldbtn-gold">English</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Jquery Bootstrap -->
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

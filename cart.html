@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- FontAwesome -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+
+    <!-- Roboto Font -->
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>e-commerce template</title>
+  </head>
+  <body>
+    <!-- Header -->
+
+    <header class="bg-white text-dark">
+      <div class="fixed-top-lg bg-white nav-shadow">
+        <nav class="container navbar navbar-expand-lg">
+          <a class="navbar-brand text-dark" href="#">Logo</a>
+          <button
+            class="navbar-toggler btn-navbar text-dark"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="fas fa-bars"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0 mx-auto">
+              <li class="nav-item">
+                <a class="nav-link text-dark mr-3 nav-font" href="#">Mens </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark mr-3 nav-font" href="#">Women</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark mr-3 nav-font" href="#">Beauty</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark mr-3 nav-font" href="#">Sport</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark mr-3 nav-font" href="#">Child</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark mr-3 nav-font" href="#">Special</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark mr-3 nav-font" href="#">Brands</a>
+              </li>
+            </ul>
+            <h5 class="my-2 my-lg-0">
+              <a class="text-dark text-decoration-none" href="./product.html">
+                <i class="fas fa-shopping-cart"></i>
+              </a>
+            </h5>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <div class="py-5 container">
+      <div class="mt-5">
+        <div class="table-responsive">
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col" class="border-0 bg-light">
+                  <div class="p-2 px-3 text-uppercase">Produk</div>
+                </th>
+                <th scope="col" class="border-0 bg-light">
+                  <div class="py-2 text-uppercase">Harga</div>
+                </th>
+                <th scope="col" class="border-0 bg-light">
+                  <div class="py-2 text-uppercase">Jumlah</div>
+                </th>
+                <th scope="col" class="border-0 bg-light">
+                  <div class="py-2 text-uppercase">Tambah</div>
+                </th>
+                <th scope="col" class="border-0 bg-light">
+                  <div class="py-2 text-uppercase">Kurang</div>
+                </th>
+                <th scope="col" class="border-0 bg-light">
+                  <div class="py-2 text-uppercase">Hapus</div>
+                </th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <th scope="row" class="border-0">
+                  <div class="p-2">
+                    <img
+                      src="./assets/product-1.jpg"
+                      alt="product"
+                      width="70"
+                      class="img-fluid rounded"
+                    />
+                    <div class="ml-3 d-inline-block align-middle">
+                      <h5 class="mb-0">Jaket Denim</h5>
+                      <span
+                        class="text-muted font-weight-normal font-italic d-block"
+                        >Denim</span
+                      >
+                    </div>
+                  </div>
+                </th>
+
+                <td class="border-0 align-middle">
+                  <strong>Rp. 175.000</strong>
+                </td>
+
+                <td class="border-0 align-middle">
+                  <strong class="ml-4">1</strong>
+                </td>
+
+                <td class="border-0 align-middle">
+                  <strong class="fas fa-plus ml-4"></strong>
+                </td>
+
+                <td class="border-0 align-middle">
+                  <strong class="fas fa-minus ml-4"></strong>
+                </td>
+
+                <td class="border-0 align-middle">
+                  <strong class="fas fa-trash ml-4"></strong>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="row py-5 p-4 bg-white rounded shadow-sm">
+          <div class="col-lg-6">
+            <div class="bg-light px-4 py-3 text-uppercase font-weight-bold">
+              Kode Promo
+            </div>
+            <div class="p-4">
+              <p class="font-italic mb-4">
+                Jika Anda memiliki kode promo, silahkan masukkan dalam kotak di
+                bawah ini
+              </p>
+              <div class="input-group mb-4 border p-2">
+                <input
+                  type="text"
+                  placeholder="Masukkan kode promo"
+                  aria-describedby="button-addon3"
+                  class="form-control border-0"
+                  value
+                />
+                <div class="input-group-append ml-2 border-0">
+                  <button
+                    id="button-addon3"
+                    type="button"
+                    class="btn-custom btn-custom-md btn-custom-left px-4"
+                  >
+                    <span>
+                      <!-- icons -->
+                      <span>Periksa Kode</span>
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="bg-light px-4 py-3 text-uppercase font-weight-bold">
+              Ringkasan Pesanan
+            </div>
+            <div class="p-4">
+              <ul class="list-unstyled mb-4">
+                <li class="d-flex justify-content-between py-3 border-bottom">
+                  <strong class="text-muted">Diskon</strong>
+                  <h5 class="font-weight-bold">0</h5>
+                </li>
+                <li class="d-flex justify-content-between py-3 border-bottom">
+                  <strong class="text-muted">Total</strong>
+                  <h5 class="font-weight-bold">Rp. 175.000</h5>
+                </li>
+              </ul>
+              <a
+                href="#"
+                class="btn-custom btn-custom-left btn-custom-md py-2 text-decoration-none text-center btn-block"
+              >
+                <span>Beli</span>
+              </a>
+              <a
+                href="#"
+                class="btn-custom btn-custom-right btn-custom-md py-2 text-decoration-none text-center btn-block"
+              >
+                Hapus Keranjang
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+
+    <footer class="mt-auto py-3 text-dark bg-gray">
+      <div class="container">
+        <div class="row">
+          <div class="col mb-5">
+            <div class="d-flex justify-content-around">
+              <ul class="list-group">
+                <li class="list-group-item">
+                  <h6>Logo</h6>
+                  <a
+                    href="#"
+                    class="text-muted text-decoration-none footer-font"
+                    >Tentang Logo</a
+                  >
+                </li>
+                <li class="list-group-item">
+                  <a
+                    href="#"
+                    class="text-muted text-decoration-none footer-font"
+                    >Karir</a
+                  >
+                </li>
+                <li class="list-group-item">
+                  <a
+                    href="#"
+                    class="text-muted text-decoration-none footer-font"
+                    >Blog</a
+                  >
+                </li>
+                <li class="list-group-item">
+                  <a
+                    href="#"
+                    class="text-muted text-decoration-none footer-font"
+                    >Hotel</a
+                  >
+                </li>
+                <li class="list-group-item">
+                  <a
+                    href="#"
+                    class="text-muted text-decoration-none footer-font"
+                    >Bridestory</a
+                  >
+                </li>
+                <li class="list-group-item">
+                  <a
+                    href="#"
+                    class="text-muted text-decoration-none footer-font"
+                    >Parentstory</a
+                  >
+                </li>
+                <li class="list-group-item">
+                  <a
+                    href="#"
+                    class="text-muted text-decoration-none footer-font"
+                    >Official Store</a
+                  >
+                </li>
+                <li class="list-group-item">
+                  <a
+                    href="#"
+                    class="text-muted text-decoration-none footer-font"
+                    >Aplikasi Logo</a
+                  >
+                </li>
+              </ul>
+
+              <ul class="list-group">
+                <li class="list-group-item">
+                  <h6>Logo</h6>
+                  <a
+                    href="#"
+                    class="text-muted text-decoration-none footer-font"
+                    >Tentang Logo</a
+                  >
+                </li>
+                <li class="list-group-item">
+                  <a
+                    href="#"
+                    class="text-muted text-decoration-none footer-font"
+                    >Karir</a
+                  >
+                </li>
+                <li class="list-group-item">
+                  <a
+                    href="#"
+                    class="text-muted text-decoration-none footer-font"
+                    >Blog</a
+                  >
+                </li>
+                <li class="list-group-item">
+                  <a
+                    href="#"
+                    class="text-muted text-decoration-none footer-font"
+                    >Hotel</a
+                  >
+                </li>
+                <li class="list-group-item">
+                  <a
+                    href="#"
+                    class="text-muted text-decoration-none footer-font"
+                    >Bridestory</a
+                  >
+                </li>
+                <li class="list-group-item">
+                  <a
+                    href="#"
+                    class="text-muted text-decoration-none footer-font"
+                    >Parentstory</a
+                  >
+                </li>
+                <li class="list-group-item">
+                  <a
+                    href="#"
+                    class="text-muted text-decoration-none footer-font"
+                    >Official Store</a
+                  >
+                </li>
+                <li class="list-group-item">
+                  <a
+                    href="#"
+                    class="text-muted text-decoration-none footer-font"
+                    >Aplikasi Logo</a
+                  >
+                </li>
+              </ul>
+
+              <ul class="list-group">
+                <li class="list-group-item">
+                  <h6>Logo</h6>
+                  <a
+                    href="#"
+                    class="text-muted text-decoration-none footer-font"
+                    >Tentang Logo</a
+                  >
+                </li>
+                <li class="list-group-item">
+                  <a
+                    href="#"
+                    class="text-muted text-decoration-none footer-font"
+                    >Karir</a
+                  >
+                </li>
+                <li class="list-group-item">
+                  <a
+                    href="#"
+                    class="text-muted text-decoration-none footer-font"
+                    >Blog</a
+                  >
+                </li>
+                <li class="list-group-item">
+                  <a
+                    href="#"
+                    class="text-muted text-decoration-none footer-font"
+                    >Hotel</a
+                  >
+                </li>
+                <li class="list-group-item">
+                  <a
+                    href="#"
+                    class="text-muted text-decoration-none footer-font"
+                    >Bridestory</a
+                  >
+                </li>
+                <li class="list-group-item">
+                  <a
+                    href="#"
+                    class="text-muted text-decoration-none footer-font"
+                    >Parentstory</a
+                  >
+                </li>
+                <li class="list-group-item">
+                  <a
+                    href="#"
+                    class="text-muted text-decoration-none footer-font"
+                    >Official Store</a
+                  >
+                </li>
+                <li class="list-group-item">
+                  <a
+                    href="#"
+                    class="text-muted text-decoration-none footer-font"
+                    >Aplikasi Logo</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col">
+            <figure class="figure">
+              <img
+                src="./assets/shopping.svg"
+                alt="footer"
+                class="figure img img-fluid rounded"
+              />
+            </figure>
+
+            <p class="text-muted text-center footer-font">
+              &copy; 2020, Your Company
+            </p>
+
+            <div class="d-flex justify-content-center mb-3">
+              <button class="btn btn-gold text-white">Indonesia</button>
+              <button class="btn btn-light text-goldbtn-gold">English</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
